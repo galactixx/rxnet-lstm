@@ -1,3 +1,10 @@
+"""
+RxNet LSTM model implementation.
+
+Defines the LSTM architecture for character-level language modeling with
+teacher forcing and dropout support.
+"""
+
 from dataclasses import dataclass
 from typing import List
 

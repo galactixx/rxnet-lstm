@@ -1,3 +1,10 @@
+"""
+Data processing utilities for RxNorm names.
+
+Loads and processes RxNorm drug names, creates character vocabulary, and provides
+encoding functionality for the LSTM model.
+"""
+
 import unicodedata
 import warnings
 from dataclasses import dataclass

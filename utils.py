@@ -1,3 +1,10 @@
+"""
+Utility functions for reproducible machine learning experiments.
+
+Seeds random number generators across Python, NumPy, and PyTorch for
+reproducible results, including CUDA operations.
+"""
+
 import os
 import random
 

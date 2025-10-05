@@ -1,3 +1,10 @@
+"""
+Training script for the RxNet LSTM model.
+
+Loads RxNorm data, trains the character-level LSTM model with teacher forcing,
+and implements early stopping with exponential moving average evaluation.
+"""
+
 from typing import List, Tuple
 
 import torch
