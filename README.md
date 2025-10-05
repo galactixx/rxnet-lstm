@@ -13,8 +13,8 @@ Uses teacher forcing, EMA evaluation, and mixed precision training. Results are 
 ## Quick Start
 
 ```bash
-pip install torch pandas scikit-learn tqdm torch-ema
-python train.py
+pip install -r requirements.txt
+python -m train
 ```
 
 ## Data
