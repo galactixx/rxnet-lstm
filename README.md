@@ -19,4 +19,4 @@ python -m train
 
 ## Data
 
-Uses `rxnorm-names.csv` with RxNorm pharmaceutical brand names. Character-level modeling with `<BOS>`, `<EOS>`, and `<PAD>` tokens.
+Uses `rxnorm-names.csv` with RxNorm pharmaceutical brand names.
